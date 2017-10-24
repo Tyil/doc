@@ -125,16 +125,16 @@ The ASCII alternatives are as follows:
 X<|⚛=>X<|⚛>X<|⚛+=>X<|⚛-=>X<|⚛−=>X<|++⚛>X<|⚛++>X<|--⚛>X<|⚛-->
 =table
   Symbol | ASCII            | Remarks
-  ===============================================================
-  ⚛=  | atomic-assign    |
-  ⚛   | atomic-fetch     | this is the prefix:<⚛> operator
-  ⚛+= | atomic-add-fetch |
-  ⚛-= | atomic-sub-fetch |
-  ⚛−= | atomic-sub-fetch | this operator uses U+2212 minus sign
-  ++⚛ | atomic-inc-fetch |
-  ⚛++ | atomic-fetch-inc |
-  --⚛ | atomic-dec-fetch |
-  ⚛-- | atomic-fetch-dec |
+  =======|==================|====================================
+  ⚛=     | atomic-assign    |
+  ⚛      | atomic-fetch     | this is the prefix:<⚛> operator
+  ⚛+=    | atomic-add-fetch |
+  ⚛-=    | atomic-sub-fetch |
+  ⚛−=    | atomic-sub-fetch | this operator uses U+2212 minus sign
+  ++⚛    | atomic-inc-fetch |
+  ⚛++    | atomic-fetch-inc |
+  --⚛    | atomic-dec-fetch |
+  ⚛--    | atomic-fetch-dec |
 
 =head1 Multiple codepoints
 
